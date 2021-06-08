@@ -13,6 +13,8 @@ let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d"); //....
 let box = 32;
 
+document.body.style.zoom = "90%"
+
 //criar cobrinha como lista, já que ela vai ser uma série de coordenadas, que quando pintadas, criam os quadradinhos
 let snake = [];
 
